@@ -1,4 +1,6 @@
 window.onload = () => {
+
+
     const fullpageData = {
         pageCnt : document.querySelectorAll('.fullpage-section').length, //페이지 총 수
         curIdx : 0, //현재 페이지
@@ -13,11 +15,11 @@ window.onload = () => {
     }
     
     const setH = ()=>{
-        const fullpages = document.querySelectorAll('#fullpage > .fullpage-section');
-        fullpageData.pageH = document.body.clientHeight;
-        fullpages.forEach(page => {
-            page.style.height = fullpageData.pageH;
-        })
+        // const fullpages = document.querySelectorAll('#fullpage > .fullpage-section');
+        // fullpageData.pageH = document.body.clientHeight;
+        // fullpages.forEach(page => {
+        //     page.style.height = fullpageData.pageH;
+        // })
     }
 
     init()
